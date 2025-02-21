@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="shortcut icon" href="assets/img/cte-logo.png" type="image/x-icon">
+
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <title>CTE</title>
+
+</head>
+
+<body>
+
+    <nav>
+        <div class="nav__logo">
+            <a href=""><img src="assets/img/cte-logo.png" alt="Logo CTE"></a>
+        </div>
+        <ul class="nav__link" id="navLinks">
+            <li><a href="../../index.html" onclick="closeMenu()">Inicio</a></li>
+            <li><a href="#agenda" onclick="closeMenu()">Agenda</a></li>
+            <li><a href="assets/pages/lideranca.html" onclick="closeMenu()">Liderança</a></li>
+            <li><a href="#produtos" onclick="closeMenu()">Produtos</a></li>
+            <li><a href="#saiba-mais" onclick="closeMenu()">Saiba Mais</a></li>
+        </ul>
+        <button class="menu-toggle" id="menuToggle" onclick="toggleMenu()">
+            ☰
+        </button>
+        <button class="btn" id="btn-inicio">Aula Experimental</button>
+    </nav>
+
+    <header class="section__container header__container">
+        <div class="header__content">
+            <span class="bg__blur"></span>
+            <span class="bg__blur header__blur"></span>
+            <h4>MELHOR ACADEMIA DA REGIÃO</h4>
+            <h1><span>VENHA</span> FAZER PARTE DA EQUIPE</h1>
+            <p>
+                Libere seu potencial e abrace-se em uma jornada em direção a um você mais forte,
+                filtrado e confiante. Venha fazer uma aula experimental
+                e testemunhe a incrível transformação de que seu corpo é capaz!
+            </p>
+        </div>
+        <div class="header__image">
+            <img src="assets/img/bjj-Photoroom.png" alt="Header">
+        </div>
+    </header>
+
+    <section class="section__container explore__container" id="agenda">
+        <h2 class="section__header">Locais e Hórarios</h2>
+        <!-- <div class="explore__header">
+            <h2 class="section__header">Agenda / Hórarios</h2>
+              <div class="explore__nav">
+                <span><i class="ri-arrow-left-line"></i></span>
+                <span><i class="ri-arrow-right-line"></i></span>
+            </div> -->
+        </div>
+        <div class="explore__grid">
+            <div class="explore__card"> <!-- card 1 -->
+                <span><i class="ri-whatsapp-line"></i></span>
+                <h4>Carpina</h4>
+                <p>
+                    <i class="ri-graduation-cap-fill"></i> Aulas nas Segunda, Quarta e Sábado. <br>
+                    <br>
+                    <i class="ri-time-fill"></i> Infantil: 16:00h, Adulto: 19:00h <br>
+                    <br>
+                    <i class="ri-map-pin-fill"></i> Avenida Estácio Coimbra, Carpina, PE, 55813190.
+
+                </p>
+                <a href="">Contate agora <i class="ri-arrow-right-line"></i></a>
+            </div>
+
+            <div class="explore__card"> <!-- card 2 -->
+                <span><i class="ri-whatsapp-line"></i></span>
+                <h4>Lagoa de Itaenga</h4>
+                <p>
+                    <i class="ri-graduation-cap-fill"></i> Todos os dias! <br>
+                    <br>
+                    <i class="ri-time-fill"></i> Infantil: 15:00 / 16:00h, Adulto: 19:00h <br>
+                    <br>
+                    <i class="ri-map-pin-fill"></i> Rua Monsenhor Severino Guedes, Lagoa Do Itaenga, 55840000.
+                </p>
+                <a href="">Contate agora <i class="ri-arrow-right-line"></i></a>
+            </div>
+
+            <div class="explore__card"> <!-- card 3 -->
+                <span><i class="ri-whatsapp-line"></i></span>
+                <h4>Glória do Goita</h4>
+                <p>
+                    <i class="ri-graduation-cap-fill"></i> Aulas Somente na Terça-Feira! <br>
+                    <br>
+                    <i class="ri-time-fill"></i> Adulto / Juvenil: 19:00h <br>
+                    <br>
+                    <i class="ri-map-pin-fill"></i> Rua Madre de Deus, 260.
+                </p>
+                <a href="">Contate agora <i class="ri-arrow-right-line"></i></a>
+            </div>
+ 
+            <div class="explore__card"> <!-- card 4 -->
+                <span><i class="ri-whatsapp-line"></i></span>
+                <h4>Chã de Alegria</h4>
+                <p>
+                    <i class="ri-graduation-cap-fill"></i> Aulas nas Segunda, Quarta, Sexta! <br>
+                    <br>
+                    <i class="ri-time-fill"></i> Juvenil 1: 17:00h, Juvenil 2: 18:00h, Adulto: 19:00h<br>
+                    <br>
+                    <i class="ri-map-pin-fill"></i> Rua Floriano Peixoto, 193.
+                </p>
+                <a href="">Contate agora <i class="ri-arrow-right-line"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section class="section__container class__container" id="sobre">
+        <div class="class__image">
+            <span class="bg__blur"></span>
+            <img src="assets/img/cte.jfif" alt="class" class="class__img-1">
+        </div>
+        <div class="class__content">
+            <h2 class="section__header">A AULA QUE TERÁ AQUI</h2>
+            <p>
+                Liderado por nossa equipe de mestres especializados e motivacionais.
+                "A aula que terá aqui" é uma sessão de alta energia e orientada a resultados que combina uma mistura perfeita de exercícios, 
+                treinamento de força e exercícios funcionais. Cada aula é cuidadosamente selecionada para mantê-lo engajado e desafiado,
+                garantindo que você nunca atinja um platô em seus esforços de condicionamento físico.
+            </p>
+            <button class="btn">Reserve uma aula</button>
+        </div>
+    </section>
+
+    <section class="section__container price__container" id="produtos">
+        <h2 class="section__header">NOSSOS PRODUTOS</h2>
+        <p class="section__subheader">
+            Nosso plano de preços vem com vários níveis de associação. 
+            Cada um adaptado para atender a diferentes preferências e gostos.
+        </p>
+        <div class="price__grid">
+           
+            <div class="price__card">
+                <div class="price__card__content">
+                    <img src="assets/products/Screenshot_3-Photoroom.png" alt="protetor" class="produto-1">
+                    <h4>Kimono Infantil Personalizado</h4>
+                    <h3>R$275,00</h3>
+                    <p><i class="ri-alert-line"></i>Faixa branca de brinde.</p>
+                    <p><i class="ri-palette-line"></i>Branco, Preto e Azul</p>
+                </div>
+                <button class="btn price__btn"><a href="">Compre agora <i class="ri-shopping-bag-fill"></i></a></button>
+            </div>
+
+            <div class="price__card">
+                <div class="price__card__content">
+                    <img src="./assets/users/mestre 2.jpg" alt="protetor" class="produto-1">
+                    <h4 class="produto-2">Protetor Bucal Mks</h4>
+                    <p><i class="ri-file-text-line"></i>Material sintético moldado que é inserido na boca para proteger a 
+                        membrana mucosa, a língua, os dentes e as mandíbulas.</p>
+                </div>
+                <button class="btn price__btn"><a href="">Compre agora <i class="ri-shopping-bag-fill"></i></a></button>
+            </div>
+
+            <div class="price__card">
+                <div class="price__card__content">
+                    <img src="assets/products/Screenshot_4-Photoroom.png" alt="protetor" class="produto-3">
+                    <h4>Finger Tape</h4>
+                    <h3>R$20,00</h3>
+                    <p>
+                        <i class="ri-file-text-line"></i>Ajuda a proteger as articulações dos dedos, 
+                        minimizando o risco de lesões, 
+                        como entorses e hiperextensões.</p>
+                </div>
+                <button class="btn price__btn"><a href="">Compre agora <i class="ri-shopping-bag-fill"></i></a></button>
+            </div>
+        </div>
+    </section>
+
+    <section class="review">
+        <div class="section__container review__container">
+            <span><i class="ri-double-quotes-r"></i></span>
+            <div class="review__content">
+                <h4>Avaliação de membros</h4>
+                <p>
+                    Uma boa aula prática focada no maximo de aprendizado com 
+                    os alunos e também sempre visando os cuidaos com o próximo.
+                </p>
+                <div class="review__rating">
+                    <span><i class="ri-star-fill"></i></span>
+                    <span><i class="ri-star-fill"></i></span>
+                    <span><i class="ri-star-fill"></i></span>
+                    <span><i class="ri-star-fill"></i></span>
+                    <span><i class="ri-star-half-fill"></i></span>
+                </div>
+                <div class="review__footer">
+                    <div class="review__member">
+                        <img src="assets/img/R.png" alt="Membro">
+                        <div class="review__member__details">
+                            <h4>System Test</h4>
+                            <p>Aluno novo</p>
+                        </div>
+                    </div>
+                    <div class="review__nav">
+                        <span><i class="ri-arrow-left-line"></i></span>
+                        <span><i class="ri-arrow-right-line"></i></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="section__container footer__container" id="saiba-mais">
+        <span class="bg__blur"></span>
+        <span class="bg__blur footer__blur"></span>
+        <div class="footer__col">
+            <div class="footer__logo">
+                <img src="assets/img/cte-logo.png" alt="Logo">
+            </div>
+            <div class="footer__socials">
+                <a href="#" target="_blank"><i class="ri-facebook-fill"></i></a>
+                <a href="#https://www.instagram.com/ctesportivo_" target="_blank"><i class="ri-instagram-line"></i></a>
+                <a href="#" target="_blank"><i class="ri-whatsapp-line"></i></a>
+            </div>
+        </div>
+        <div class="footer__col">
+            <h4>Companhia</h4>
+            <a href="#">Franquias</a>
+            <a href="assets/pages/lideranca.html">Liderança</a>
+            <a href="#">Parcerias</a>
+        </div>
+
+        <div class="footer__col">
+            <h4>Sobre Nos</h4>
+            <a href="#">Blogs</a>
+            <a href="#">Pontuações</a>
+            <a href="#agenda">Nossa Agenda</a>
+        </div>
+
+        <div class="footer__col">
+            <h4>Contatos</h4>
+            <a href="#agenda">Contate-nos</a>
+            <a href="#">Política de Privacidade</a>
+            <a href="#">Termos & Condicionamentos</a>
+        </div>
+    </footer>
+
+    <div class="footer__bar">
+        Copywriting © 2025 | Centro de Treinamento Esportivo - CTE
+    </div>
+
+    <div class="footer__bar-2">
+        Feito com ♥ por <a href="https://www.instagram.com/lipeitx" target="_blank">Felipe</a> .
+    </div>
+
+    <!-- Custom JS -->
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
